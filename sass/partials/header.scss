@@ -1,0 +1,41 @@
+
+/*Header*/
+
+.header {
+    height: 108px;
+    background-color: #020316;
+    list-style: none;
+}
+
+/*Logo*/
+.header_icono img {
+    float: left;
+    width: 92px;
+    height: 30px;
+    padding-left: 104px;
+    padding-top: 40px;
+}
+
+/*Menu List*/
+.header_list {
+    padding-right: 20px;
+    padding-top: 30px;
+    float: right;
+
+    li {
+        float: left;
+        list-style: none;
+    }
+
+    li + li{
+        margin-left: 43px;
+    }
+
+    a{
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+    }
+}

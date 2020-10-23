@@ -1,0 +1,23 @@
+
+/*Main*/
+
+.main_title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #271e3f;
+    font-size: 30px;
+}
+
+.box_img {
+    list-style: none;
+
+    img {
+        float: left;
+        width: 398px;
+        height: 295px;
+        margin-left: 38px;
+    }
+    li + li {
+        margin-bottom: 54px;
+    }  
+}
