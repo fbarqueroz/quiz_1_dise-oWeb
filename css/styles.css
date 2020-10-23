@@ -14,9 +14,142 @@
   background-color: #020316;
 }
 
+.header {
+  list-style: none;
+}
+/*Logo*/
 .header_icono img {
   float: left;
-  width: 100px;
+  width: 92px;
   height: 30px;
+  padding-left: 104px;
+  padding-top: 40px;
 }
 
+/*Menu List*/
+.header_list {
+  padding-right: 20px;
+  padding-top: 30px;
+  float: right;
+}
+
+.header_list li {
+  float: left;
+  list-style: none;
+}
+
+.header_list li + li{
+	margin-left: 43px;
+}
+
+.header_list a{
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Main*/
+
+.main_title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #271e3f;
+  font-size: 30px;
+}
+
+.box_img {
+  list-style: none;
+}
+
+.box_img img {
+  float: left;
+  width: 398px;
+  height: 295px;
+  margin-left: 38px;
+}
+
+.box_img li + li {
+  margin-bottom: 54px;
+}
+
+/*Footer*/
+
+.footer_1 {
+  background-image: url(../img/bg.jpg);
+  height: 560px;
+}
+
+.footer_1 h3 {
+  font-size: 40px;
+  color: #feffff;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+
+.footer_1 p {
+  width: 547px;
+  font-size: 18px;
+  color: #feffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+
+.footer_img {
+  padding-top: 260px;
+  padding-left: 280px;
+  width: 205px;
+  float: left;
+}
+
+.footer_1-content {
+  float: right;
+  width: 545px;
+  padding-right: 150px;
+  padding-top: 130px;
+  padding-bottom: 0;
+}
+
+.footer_2 {
+  height: 238px;
+  background-color: #171717;
+  text-align: center;
+  
+}
+
+.footer_main li {
+  float: left;
+  list-style: none;
+}
+
+.footer_main li + li{
+	margin-left: 43px;
+}
+
+.footer_main {
+padding-left: 408px;
+padding-top: 56px;
+}
+
+.footer_main a{
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer_fb {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.fotter_info {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 18px;
+  color: #feffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+}
